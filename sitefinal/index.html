@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BluShop</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="header">
+  <nav class="navbar container">
+    <div class="brand"><span>Blu</span>Shop</div>
+    <div class="links">
+      <a href="#accueil">Accueil</a>
+      <a href="#produits">Produits</a>
+      <a href="#apropos">À propos</a>
+    </div>
+    <button id="openCartBtn" class="cart-btn">🛒 <span id="cartCount">0</span> | <span id="cartTotal">0</span> DT</button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="accueil" class="hero">
+  <div class="hero-inner container">
+    <h1>Bienvenue chez <span>BluShop</span></h1>
+    <p>Des pièces stylées, des prix carrés — shoppe maintenant.</p>
+    <a href="#produits" class="btn-primary">Voir les Produits</a>
+  </div>
+</section>
+
+<!-- PRODUITS -->
+<section id="produits" class="section container">
+<h2 class="section-title">Nos Produits</h2>
+<div class="grid">
+
+<!-- Produits chaussures -->
+<div class="card" data-name="Dior B22" data-price="200" data-type="shoes" data-img="dior b22.jpeg">
+  <div class="card-body">
+    <img src="dior b22.jpeg" alt="Dior B22" class="product-img">
+    <h3 class="card-title">Dior B22</h3>
+    <p class="price">200 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Dior B30" data-price="200" data-type="shoes" data-img="dior b30.jpeg">
+  <div class="card-body">
+    <img src="dior b30.jpeg" alt="Dior B30" class="product-img">
+    <h3 class="card-title">Dior B30</h3>
+    <p class="price">200 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Asics Noir" data-price="189" data-type="shoes" data-img="asics.jpeg">
+  <div class="card-body">
+    <img src="asics.jpeg" alt="Asics Noir" class="product-img">
+    <h3 class="card-title">Asics Noir</h3>
+    <p class="price">189 DT</p>
+  </div>
+</div>
+
+<!-- Produits vêtements -->
+<div class="card" data-name="Pull de foot Palestine" data-price="70" data-type="clothes" data-img="palestine.jpeg">
+  <div class="card-body">
+    <img src="palestine.jpeg" alt="Pull Palestine" class="product-img">
+    <h3 class="card-title">Pull Palestine</h3>
+    <p class="price">70 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="T-shirt Noir" data-price="40" data-type="clothes" data-img="noir.jpeg">
+  <div class="card-body">
+    <img src="noir.jpeg" alt="T-shirt Noir" class="product-img">
+    <h3 class="card-title">T-shirt Noir</h3>
+    <p class="price">40 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="T-shirt Blanc" data-price="40" data-type="clothes" data-img="blanc.jpeg">
+  <div class="card-body">
+    <img src="blanc.jpeg" alt="T-shirt Blanc" class="product-img">
+    <h3 class="card-title">T-shirt Blanc</h3>
+    <p class="price">40 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Short Noir" data-price="35" data-type="clothes" data-img="shortnoir.jpeg">
+  <div class="card-body">
+    <img src="shortnoir.jpeg" alt="Short Noir" class="product-img">
+    <h3 class="card-title">Short Noir</h3>
+    <p class="price">35 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Short Gris" data-price="35" data-type="clothes" data-img="gris.jpeg">
+  <div class="card-body">
+    <img src="gris.jpeg" alt="Short Gris" class="product-img">
+    <h3 class="card-title">Short Gris</h3>
+    <p class="price">35 DT</p>
+  </div>
+</div>
+
+<!-- Nouveaux produits vêtements -->
+<div class="card" data-name="Corteiz bleu" data-price="95" data-type="clothes" data-img="bleu1.jpeg">
+  <div class="card-body">
+    <img src="bleu1.jpeg" alt="Corteiz bleu" class="product-img">
+    <h3 class="card-title">Corteiz bleu</h3>
+    <p class="price">95 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Denim tears bleu" data-price="95" data-type="clothes" data-img="bleu2.jpeg">
+  <div class="card-body">
+    <img src="bleu2.jpeg" alt="Denim tears bleu" class="product-img">
+    <h3 class="card-title">Denim tears bleu</h3>
+    <p class="price">95 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Corteiz gris" data-price="95" data-type="clothes" data-img="gris1.jpeg">
+  <div class="card-body">
+    <img src="gris1.jpeg" alt="Corteiz gris" class="product-img">
+    <h3 class="card-title">Corteiz gris</h3>
+    <p class="price">95 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Denim tears gris" data-price="95" data-type="clothes" data-img="gris2.jpeg">
+  <div class="card-body">
+    <img src="gris2.jpeg" alt="Denim tears gris" class="product-img">
+    <h3 class="card-title">Denim tears gris</h3>
+    <p class="price">95 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Corteiz noir" data-price="95" data-type="clothes" data-img="noir1.jpeg">
+  <div class="card-body">
+    <img src="noir1.jpeg" alt="Corteiz noir" class="product-img">
+    <h3 class="card-title">Corteiz noir</h3>
+    <p class="price">95 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Denim tears noir" data-price="95" data-type="clothes" data-img="noir2.jpeg">
+  <div class="card-body">
+    <img src="noir2.jpeg" alt="Denim tears noir" class="product-img">
+    <h3 class="card-title">Denim tears noir</h3>
+    <p class="price">95 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Corteiz rose" data-price="95" data-type="clothes" data-img="rose1.jpeg">
+  <div class="card-body">
+    <img src="rose1.jpeg" alt="Corteiz rose" class="product-img">
+    <h3 class="card-title">Corteiz rose</h3>
+    <p class="price">95 DT</p>
+  </div>
+</div>
+
+<div class="card" data-name="Denim tears rose" data-price="95" data-type="clothes" data-img="rose2.jpeg">
+  <div class="card-body">
+    <img src="rose2.jpeg" alt="Denim tears rose" class="product-img">
+    <h3 class="card-title">Denim tears rose</h3>
+    <p class="price">95 DT</p>
+  </div>
+</div>
+
+</div>
+</section>
+
+<!-- À PROPOS -->
+<section id="apropos" class="section section-alt">
+<div class="container">
+  <h2 class="section-title">À propos</h2>
+  <p>MezenShop est une boutique en ligne tunisienne proposant des articles street et sports. Livraison rapide et qualité au rendez-vous.</p>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container footer-inner">
+  <a class="social" href="https://www.instagram.com/mezen.flh" target="_blank">
+    <img src="instagram.png" alt="Instagram" style="width:40px; height:40px;">
+  </a>
+  <a class="social" href="tel:58700454">📞</a>
+</div>
+</footer>
+
+<!-- PANIER -->
+<aside id="cartDrawer" class="cart-drawer">
+  <div class="cart-header">
+    <h3>Votre Panier</h3>
+    <button id="closeCartBtn" class="icon-btn">✕</button>
+  </div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total">Total: <span id="drawerTotal">0</span> DT</div>
+    <button id="checkoutBtn" class="btn-primary btn-full">Commander</button>
+    <p id="cartError" class="cart-error"></p>
+  </div>
+</aside>
+
+<div id="backdrop" class="backdrop"></div>
+
+<!-- MODAL CHECKOUT -->
+<div id="checkoutModal" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <h3>Finaliser la commande</h3>
+      <button id="closeCheckoutBtn" class="icon-btn">✕</button>
+    </div>
+    <form id="checkoutForm" class="form">
+      <input type="text" name="lastname" placeholder="Nom" required>
+      <input type="text" name="name" placeholder="Prénom" required>
+      <input type="text" name="address" placeholder="Adresse" required>
+      <input type="tel" name="phone" placeholder="Téléphone" required>
+      <button type="submit" class="btn-primary btn-full">Envoyer la commande</button>
+    </form>
+  </div>
+</div>
+
+<!-- MODAL PRODUIT -->
+<div id="productModal" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <h3 id="modalProductName"></h3>
+      <button id="closeProductBtn" class="icon-btn">✕</button>
+    </div>
+    <img id="modalProductImg" class="product-img" src="" alt="">
+    <p id="modalProductPrice" class="price"></p>
+    <div id="sizeOptions" class="size-options"></div>
+    <button id="addToCartBtn" class="btn-primary btn-full" disabled>Ajouter au panier</button>
+  </div>
+</div>
+
+<!-- TOAST MESSAGE -->
+<div id="cartMessage" class="toast">Produit ajouté au panier !</div>
+
+<!-- JS & EmailJS à la fin pour GitHub Pages -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init("eo6vME_HyVkNwZyqu");
+</script>
+<script src="script.js" defer></script>
+
+</body>
+</html>
+
+
+
