@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mezen-hub.github.io/blushop/sitemap.xml
