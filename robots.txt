@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://mezen-hub.github.io/blushop/sitemap.xml
-Sitemap: https://mezen-hub.github.io/blushop/sitemap.html
+Sitemap: https://mezen-hub.github.io/blushop/sitemap.txt
+
